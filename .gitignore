@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Swift Package Manager build output
+/.build
+/Packages
+
+# Xcode user-specific data
+xcuserdata/
+DerivedData/
+*.xcuserstate
+
+# SwiftPM / Xcode workspace files generated locally
+.swiftpm/configuration/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+
+# Credentials (never commit)
+.netrc
+
+# DocC generated documentation archives
+*.doccarchive
+
+# Editors
+.vscode/
+.idea/
